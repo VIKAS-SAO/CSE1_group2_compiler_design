@@ -1,0 +1,15 @@
+
+STAGE 1 (LEXICAL ANALYZER)
+
+In this phase, a program is given to your code. 
+If that program follows the lexical rules, it must print the tokens of that program in the output. 
+Otherwise , it must print the appropriate error. 
+
+To make the file
+
+>>>flex Lex_Rule.lex                                      // creates lex.yy.c
+>>>g++ -o runner lex.yy.c                                 // creates the nunner.exe file 
+
+
+To test:
+	>>>runner [testfilename]

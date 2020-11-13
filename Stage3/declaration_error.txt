@@ -1,0 +1,11 @@
+ 
+int main(){
+  int a[100] , b , c ;
+  float x ;
+  x = 12.10 ;
+  double x ;
+  char ch ;
+  ch = 'a';
+   
+
+}
